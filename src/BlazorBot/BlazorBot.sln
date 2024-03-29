@@ -23,9 +23,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorBot.ClientServices", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorBot.ServerServices", "BlazorBot.ServerServices\BlazorBot.ServerServices.csproj", "{E2DAB061-DE67-426E-B4FA-1C25AD2E72C8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorBotApp", "BlazorBotApp\BlazorBotApp\BlazorBotApp.csproj", "{33409FB2-71D0-4C6C-8F9A-257FA5BFDB58}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorBotApp", "BlazorBotApp\BlazorBotApp\BlazorBotApp.csproj", "{33409FB2-71D0-4C6C-8F9A-257FA5BFDB58}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorBotApp.Client", "BlazorBotApp\BlazorBotApp.Client\BlazorBotApp.Client.csproj", "{A754EEA1-8939-4FEB-ACB9-3103064F76B8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorBotApp.Client", "BlazorBotApp\BlazorBotApp.Client\BlazorBotApp.Client.csproj", "{A754EEA1-8939-4FEB-ACB9-3103064F76B8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StateManagement", "StateManagement", "{3704967E-1A46-4555-AFAE-47EC17AD44E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorBot.SignalRHub", "BlazorBot.SignalRHub\BlazorBot.SignalRHub.csproj", "{9C22C744-4A94-447D-9FAC-A9678570C6BB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +61,10 @@ Global
 		{A754EEA1-8939-4FEB-ACB9-3103064F76B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A754EEA1-8939-4FEB-ACB9-3103064F76B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A754EEA1-8939-4FEB-ACB9-3103064F76B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C22C744-4A94-447D-9FAC-A9678570C6BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C22C744-4A94-447D-9FAC-A9678570C6BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C22C744-4A94-447D-9FAC-A9678570C6BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C22C744-4A94-447D-9FAC-A9678570C6BB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -70,6 +78,7 @@ Global
 		{E2DAB061-DE67-426E-B4FA-1C25AD2E72C8} = {8605AF76-CFE0-4C70-A705-DE061E679755}
 		{33409FB2-71D0-4C6C-8F9A-257FA5BFDB58} = {55289F65-4473-445D-9ADC-F7BC78E6A409}
 		{A754EEA1-8939-4FEB-ACB9-3103064F76B8} = {40BEA666-8777-4C62-A408-4CD33A8EF720}
+		{9C22C744-4A94-447D-9FAC-A9678570C6BB} = {8605AF76-CFE0-4C70-A705-DE061E679755}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BC810808-AE9D-42E2-87C2-16DCB2045B06}

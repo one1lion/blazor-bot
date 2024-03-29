@@ -7,4 +7,9 @@ using System.Threading.Tasks;
 namespace BlazorBot.Shared.Abstract.ServiceInterfaces;
 public interface IBlazorBotService
 {
+    Task<string> GetBotResponse(string message);
+    /*
+     * For Semantic Kernel streaming
+     * IAsyncEnumerable<ResponseDTO<ChatInputModel>> GenerateStreamingResponseAsync(ChatInputModel chatInputModel, CancellationToken cancellationToken = default);
+     */
 }
