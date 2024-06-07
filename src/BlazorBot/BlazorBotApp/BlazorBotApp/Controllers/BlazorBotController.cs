@@ -5,5 +5,4 @@ namespace BlazorBotApp.Controllers;
 [ApiController]
 public class BlazorBotController : ControllerBase
 {
-
 }
