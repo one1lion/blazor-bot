@@ -2,7 +2,7 @@
 
 namespace BlazorBot.ServerServices.Services;
 
-public class TwitchBotService : PlatformServiceBase
+public class YouTubeBotService : PlatformServiceBase
 {
     public override Task Connect()
     {

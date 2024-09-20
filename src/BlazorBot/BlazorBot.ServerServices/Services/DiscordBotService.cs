@@ -1,11 +1,21 @@
 ﻿using BlazorBot.Shared.Abstract.ServiceInterfaces;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace BlazorBot.ServerServices.Services;
-public class DiscordBotService : IDiscordBotService
+
+public class DiscordBotService : PlatformServiceBase
 {
+    public override Task Connect()
+    {
+        throw new NotImplementedException();
+    }
+
+    public override Task Disconnect()
+    {
+        throw new NotImplementedException();
+    }
+
+    public override Task<string> GetBotResponse(string message)
+    {
+        throw new NotImplementedException();
+    }
 }

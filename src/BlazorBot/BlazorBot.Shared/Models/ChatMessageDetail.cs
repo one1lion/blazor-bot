@@ -1,10 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿namespace BlazorBot.Shared.Models;
 
-namespace BlazorBot.Shared.Models;
 public class ChatMessageDetail
 {
+    public required string UserName { get; init; }
+    public string? Message { get; set; }
 }

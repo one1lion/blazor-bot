@@ -1,4 +1,5 @@
 ﻿namespace BlazorBot.Shared.Enums;
+
 public enum MessageType
 {
     ChannelJoined,
